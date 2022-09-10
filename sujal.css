@@ -2,7 +2,7 @@
 #power{
     background-color: antiquewhite;
 }
-#header{
+#headerss{
     color: darkmagenta;
 }
 #discord{
@@ -17,5 +17,8 @@ h2{
 }
 caption{
     color: brown;
+}
+header{
+    background-color: cadetblue;
 }
 </style>
