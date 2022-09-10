@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 25%;
+    border: 3px solid  aliceblue;
+    border-radius: 35px;
+}
+.earthians{
+    color: darksalmon;
+}
+.earthians :hover{
+    text-transform:uppercase;
+    cursor:grab;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 26px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:darkseagreen;
+    font-size:larger;
+}
+.nav-list a:hover{
+    color: gray;
+}
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 27px;
+}
+#search{
+    padding: 4px;
+    font-size: 13px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.btn{
+    padding: 4px 18px;
+    margin: 7px 0;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(image.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.background2{
+    background: rgba(0, 0, 0, 0.7) url(headandfoot.png);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.headerlmao{
+    
+    font-size: 30px;
+    color: moccasin;
+    padding-top: 120px;
+    font:caption bold;
+}
+.headerlmao:hover{
+    color:darksalmon;
+    cursor: grab;  
+}
+.paragraph1{
+    padding: 40px;
+    color:darksalmon
+}
+.buttons{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 150px;
+}
+.b1{
+    
+    color: moccasin;
+    padding: 8px 20px;
+    margin:7px 0px;
+    border: 2px solid moccasin;
+    border-radius: 8px;
+    font-size: 14px;
+    background: none;
+}
+.b2{
+
+    color:moccasin;
+    padding: 8px 20px;
+    margin:7px 0px;
+    border: 2px solid moccasin;
+    border-radius: 8px;
+    font-size: 14px;
+    background: none;
+}
+.b1:hover{
+    cursor:pointer;
+    color:darksalmon;
+    border-color: darksalmon;
+}
+.b2:hover{
+    cursor: pointer;
+    color: darksalmon;
+    border-color: darksalmon;
+}
+.contact{
+    background: rgba(0, 0, 0, 0.8) url(headandfoot.png);
+    background-blend-mode: darken;
+}
+.fff{
+    text-align: center;
+    color: moccasin;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+}
+.footer{
+    text-align: center;
+    padding: 32px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.8) url(headandfoot.png);
+    background-blend-mode: darken;
+    color: white;
+}
+
