@@ -1,9 +1,10 @@
-<style>
+
 #power{
     background-color: antiquewhite;
 }
 #headerss{
     color: darkmagenta;
+    cursor:grab;
 }
 #discord{
     background-color: antiquewhite;
@@ -21,4 +22,3 @@ caption{
 header{
     background-color: cadetblue;
 }
-</style>
