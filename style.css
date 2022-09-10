@@ -32,7 +32,7 @@
     width: 70%;
     display: flex;
     align-items: center;
-    padding: 14px;
+    
 
 }
 .nav-list li{
@@ -42,7 +42,8 @@
 .nav-list li a{
     text-decoration: none;
     color:darkseagreen;
-    font-size:larger;
+    font-size:19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav-list a:hover{
     color: gray;
@@ -50,19 +51,19 @@
 .rightnav{
     width: 30%;
     text-align: right;
-    padding: 0 27px;
+    padding: 0 23px;
 }
 #search{
-    padding: 4px;
-    font-size: 13px;
+    padding: 3px;
+    font-size: 9px;
     border: 2px solid grey;
     border-radius: 9px;
 }
 .btn{
-    padding: 4px 18px;
+    padding: 1px 8px;
     margin: 7px 0;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 18px;
     background: none;
     color: white;
     cursor: pointer;
@@ -149,4 +150,55 @@
     background-blend-mode: darken;
     color: white;
 }
+.ab{
+    text-align: center;
+}
+.bc{
+    text-align: center;
+}
 
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 14px;
+}
+.line{
+    width: 32px;
+    background-color: white;
+    height: 3px;
+    margin: 5px 4px;
+}
+
+
+@media only screen and (max-width: 1320px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 777px;
+        
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .logo{
+        width: 50%;
+        justify-content:initial;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 75px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+}
