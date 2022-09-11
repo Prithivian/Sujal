@@ -192,10 +192,7 @@
         flex-direction: column;
 
     }
-    .logo{
-        width: 50%;
-        justify-content:initial;
-    }
+    
     .burger{
         display: block;
     }
