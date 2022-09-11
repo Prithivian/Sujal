@@ -188,6 +188,10 @@
     #search{
         width: 100%;
     }
+    .buttons{
+        flex-direction: column;
+
+    }
     .logo{
         width: 50%;
         justify-content:initial;
