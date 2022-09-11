@@ -82,7 +82,7 @@
     
     font-size: 30px;
     color: moccasin;
-    padding-top: 120px;
+    padding-top: 68px;
     font:caption bold;
 }
 .headerlmao:hover{
@@ -144,7 +144,7 @@
 }
 .footer{
     text-align: center;
-    padding: 32px 0;
+    padding: 23px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgba(0, 0, 0, 0.8) url(headandfoot.png);
     background-blend-mode: darken;
@@ -170,20 +170,46 @@
     height: 3px;
     margin: 5px 4px;
 }
-
+.lmao{
+    display: none;
+    text-align: center;
+    color: darkseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logoformobile{
+    display: none;
+    justify-content: center;
+}
+.logoformobile img{
+    width: 25%;
+    border: 3px solid  aliceblue;
+    border-radius: 35px;
+    display: none;
+}
 
 @media only screen and (max-width: 1320px){
+    
+    .logoformobile{
+        display: block;
+        width: 70%;
+    }
+    .logoformobile img{
+        display: block;
+        margin-left: 60%;
+    }
     .nav-list{
         flex-direction: column;
+        display: none;
     }
     .navbar{
         flex-direction: column;
         transition: all 0.3s ease-out;
-        height: 777px;
+        height: 80px;
         
     }
     .rightnav{
         text-align: center;
+        display: none;
     }
     #search{
         width: 100%;
@@ -192,14 +218,8 @@
         flex-direction: column;
 
     }
-    
-    .burger{
+    .lmao{
         display: block;
     }
-    .h-nav-resp{
-        height: 75px;
-    }
-    .v-class-resp{
-        opacity: 0;
-    }
 }
+
